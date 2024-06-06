@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/mern-todo', {
+mongoose.connect('mongodb+srv://roshan:roshan@cluster0.yz8is3g.mongodb.net/mern-todo', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
